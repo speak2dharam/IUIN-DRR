@@ -1,8 +1,13 @@
+body {
+    /*background-color: #e9e9e9;*/
+}
+
 a{
     text-decoration:none;
 }
 .topbar {
     background-image: linear-gradient(261deg, #616162, #434343);
+    font-size:13px;
 }
 .pgheadLeft{
 
@@ -15,16 +20,20 @@ a{
         margin: 0;
     }
     .pgheadLeft h1 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
     }
     .pgheadLeft h4 {
-        font-size: 17px;
+        font-size: 15px;
         color: #585757;
     }
     .pgheadLeft h6 {
         color: #585757;
+        font-size: 14px;
     }
+.rghtLogo img{
+    height:90px;
+}
 header {
     background-image: linear-gradient(261deg, #fafafa, #dadada);
 }
@@ -41,4 +50,35 @@ header {
     }
 footer {
     background-image: linear-gradient(261deg, #616162, #434343);
+}
+.stats img{
+    height:58px;
+}
+.stats span {
+    font-size: 23px;
+}
+.stats h6{
+
+}
+.contentArea{
+    min-height:80vh;
+}
+@media(max-width:768px) {
+    .pgheadLeft h2 {
+        font-size: 12px;
+    }
+
+    .pgheadLeft h1 {
+        font-size: 15px;
+    }
+
+    .pgheadLeft h4 {
+        font-size: 12px;
+    }
+
+    .pgheadLeft h6 {
+        font-size: 12px;
+    }
+}
+@media(max-width:576px) {
 }
