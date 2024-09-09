@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>IUIN-DRR</title>
     <!-- bootstrap@5.3.2 -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/icofont.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css?v1.01" rel="stylesheet" />
+    <link href="assets/libs/owl/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/libs/owl/owl.theme.default.css" rel="stylesheet" />
 </head>
 <body>
     <section class="topbar border-bottom">
@@ -119,7 +121,16 @@
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="btn btn-danger btn-sm" href="#">Login / SignUp</a>
+                            <!--<a class="btn btn-danger btn-sm" href="#">Login / SignUp</a>-->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Login / SignUp
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item border-top" href="register.html">Register</a></li>
+                                </ul>
+                            </div>
                         </li>
 
                     </ul>
@@ -195,7 +206,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <section class="bg-light">
+    <section class="bg-light border-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md border-end">
@@ -245,11 +256,179 @@
             </div>
         </div>
     </section>
+
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-5">
+                    <div>
+                        <h4 class="display-6 mb-0">Urban</h4>
+                        <h5 class="fs-1">Resilience</h5>
 
+                    </div>
+                    <div>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Disaster Risk Reduction (DRR)</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Climate Change Adaptation</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Sustainable Urban Development</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Infrastructure Resilience</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Socio-Economic Resilience</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Governance and Policy</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Ecosystem-Based Approaches</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75 mb-3">Technological Innovations</a>
+                        <a href="#" class="d-block btn btn-info btn-sm bg-gradient fw-bold opacity-75">Finance Mechanisms</a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div>
+                        <img src="/assets/img/banner2.png" class="img-fluid" alt="Alternate Text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-info bg-opacity-10 bg-gradient">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <div>
+                        <h2 class="fs-3">Testimonial</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div>
+                        <div class="owl-carousel owl-theme">
+                            <div class="testimonial-box">
+                                <div>
+                                    <div>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <p>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    </p>
+                                    <div class="testiImg">
+                                        <img src="assets/img/testimonials-1.jpg" />
+                                    </div>
+                                    <div>
+                                        <h4>Sara Wilsson</h4>
+                                        <h6>Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-box">
+                                <div>
+                                    <div>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <p>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    </p>
+                                    <div class="testiImg">
+                                        <img src="assets/img/testimonials-1.jpg" />
+                                    </div>
+                                    <div>
+                                        <h4>Sara Wilsson</h4>
+                                        <h6>Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-box">
+                                <div>
+                                    <div>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <p>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    </p>
+                                    <div class="testiImg">
+                                        <img src="assets/img/testimonials-1.jpg" />
+                                    </div>
+                                    <div>
+                                        <h4>Sara Wilsson</h4>
+                                        <h6>Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-box">
+                                <div>
+                                    <div>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <p>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    </p>
+                                    <div class="testiImg">
+                                        <img src="assets/img/testimonials-1.jpg" />
+                                    </div>
+                                    <div>
+                                        <h4>Sara Wilsson</h4>
+                                        <h6>Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-box">
+                                <div>
+                                    <div>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <p>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    </p>
+                                    <div class="testiImg">
+                                        <img src="assets/img/testimonials-1.jpg" />
+                                    </div>
+                                    <div>
+                                        <h4>Sara Wilsson</h4>
+                                        <h6>Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-box">
+                                <div>
+                                    <div>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                        <i class="icofont-star"></i>
+                                    </div>
+                                    <p>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    </p>
+                                    <div class="testiImg">
+                                        <img src="assets/img/testimonials-1.jpg" />
+                                    </div>
+                                    <div>
+                                        <h4>Sara Wilsson</h4>
+                                        <h6>Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -267,7 +446,7 @@
     <!-- bootstrap@5.3.2 -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <!--<script src="assets/js/bootstrap.bundle.min.js"></script>-->
+    <script src="assets/libs/owl/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.count').each(function () {
@@ -288,6 +467,37 @@
             });
         });
 
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $(".owl-carousel").owlCarousel({
+                autoplay: true,
+                touchDrag: true,
+                mouseDrag: true,
+                center: true,
+                stagePadding: 50,
+                loop: true,
+                margin: 0,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: false,
+                        loop: true
+                    }
+                }
+            });
+
+        });
     </script>
 </body>
 </html>

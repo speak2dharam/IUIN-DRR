@@ -63,8 +63,40 @@ footer {
 .contentArea{
     min-height:80vh;
 }
-@media(max-width:768px) {
-    .pgheadLeft h2 {
+.testimonial-box {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 1px 2px 7px #00000029;
+    margin: 20px;
+}
+    .testimonial-box i {
+        color: #ffc107;
+    }
+    .testimonial-box p {
+        font-style: italic;
+        margin-top: 13px;
+    }
+    .testimonial-box h4 {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .testimonial-box h6 {
+        color: #a7a6a6;
+    }
+.testiImg {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+    .testiImg img{
+
+    }
+    @media(max-width:768px) {
+        .pgheadLeft h2 {
         font-size: 12px;
     }
 
