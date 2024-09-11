@@ -95,10 +95,52 @@ footer {
     .testiImg img{
 
     }
+.dstrH{
+    position:relative;
+    font-size:42px;
+}
+.dstrH::before {
+    content:'';
+}
+    .dstrH span{
+
+    }
+        .dstrH span.fw-bolder{
+
+        }
+.linkbg{
+    background:url(../img/5104.jpg) no-repeat center center ;
+    background-size:cover;
+}
+.rightLinks {
+}
+    .rightLinks img {
+        height: 60px;
+        margin-right: 10px;
+    }
+    .rightLinks h4 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .rightLinks ul {
+        margin: 0;
+        padding: 0;
+    }
+        .rightLinks ul li {
+            display: inline-flex;
+            width: 48%;
+            margin-bottom: 4px;
+        }
+            .rightLinks ul li a {
+                color: #000;
+                text-decoration: underline;
+                font-size: 14px;
+            }
+
     @media(max-width:768px) {
         .pgheadLeft h2 {
         font-size: 12px;
-    }
+}
 
     .pgheadLeft h1 {
         font-size: 15px;
