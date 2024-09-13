@@ -108,9 +108,13 @@ footer {
         .dstrH span.fw-bolder{
 
         }
-.linkbg{
-    background:url(../img/5104.jpg) no-repeat center center ;
-    background-size:cover;
+.linkbg {
+    /*background: url(../img/5104.jpg) no-repeat center center;*/
+    background-size: cover;
+    background-image: linear-gradient(261deg, #63bce9, #1b6083);
+}
+.cstmSlider {
+    background-image: linear-gradient(261deg, #63bce9, #1b6083);
 }
 .rightLinks {
 }
