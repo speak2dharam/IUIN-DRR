@@ -170,6 +170,11 @@ footer {
         color: #4a4a4a;
         text-decoration: underline;
     }
+.picBg{
+    background:url(../img/bg3.jpg) no-repeat center center;
+    background-size:cover;
+    height:500px;
+}
 @media(max-width:768px) {
     .pgheadLeft h2 {
         font-size: 12px;
