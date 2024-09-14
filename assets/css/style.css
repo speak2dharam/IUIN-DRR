@@ -149,9 +149,9 @@ footer {
                 text-decoration: underline;
                 font-size: 14px;
             }
-.lingbg{
-    background:url(/assets/img/bg2.jpg) no-repeat center top;
-    background-size:cover;
+.lingbg {
+    background: url(https://raw.githubusercontent.com/speak2dharam/IUIN-DRR/main/assets/img/bg2.jpg) no-repeat center top;
+    background-size: cover;
 }
 .newLinkbx img {
     height: 40px;
